@@ -29,7 +29,8 @@ Vypište do stránky i příjem divadla se započítanou slevou pro studenty
 document.body.innerHTML += "<h1>Úkol 2 - příjem divadla</h1>"
 
 let listek = 12
-let listekStudent = listek * 0.65
+let slevaStudent = 0.65
+let listekStudent = listek * slevaStudent
 let obsazenost = 174
 let pocetPredstaveni = 15
 let prijem = listek * obsazenost * pocetPredstaveni
